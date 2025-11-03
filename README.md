@@ -1,125 +1,73 @@
-# 🌟 Sonu Kumar — Portfolio Website
+# Rishabh Shukla - Portfolio Website
 
-Welcome to my personal portfolio website! This site showcases my work, skills, and passion for AI/DS, machine learning, and full-stack development.
+A modern, responsive portfolio website built with React, Vite, and Tailwind CSS. Showcasing my skills, projects, and achievements as a B.Tech student in Information Technology.
 
-## 🚀 Live Demo  
-👉 [View Portfolio](https://your-portfolio-link.com)  
+## 🚀 Features
 
----
+- **Modern UI/UX**: Clean, responsive design with smooth animations using Framer Motion
+- **Interactive Sections**: 
+  - Hero section with animated name
+  - About Me with detailed information
+  - Skills showcase
+  - Projects portfolio
+  - Achievements
+  - Contact form with EmailJS integration
+- **Responsive Design**: Optimized for all devices
+- **Dark Theme**: Eye-friendly dark color scheme
+- **Resume Download**: Direct download and view options for resume
 
-## 📌 Features
+## 🛠️ Technologies Used
 
-- ⚡ **Fast and Responsive Design** — Optimized for all devices (mobile, tablet, desktop)  
-- 🎨 **Modern UI** — Built with Tailwind CSS for clean, stylish visuals  
-- 🤖 **AI/ML Focus** — Showcases machine learning projects and data science skills
-- 🌱 **Accessible and SEO-Friendly**  
-- 🛠️ **Built with React + Vite + Tailwind CSS**  
-- 💬 **Smooth animations** with Framer Motion  
-- 🧩 **Achievements Section** — Hackathons, certifications, and coding profiles
-- 📞 **Contact Integration** — EmailJS powered contact form
+- **Frontend**: React 18, Vite
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **State Management**: Redux Toolkit
+- **Form Handling**: Formik
+- **Email Service**: EmailJS
+- **Icons**: React Icons
+- **Deployment**: GitHub Pages
 
----
+## 📦 Installation & Setup
 
-## 🛠 Tech Stack
-
-| Technology | Description                       |
-|------------|------------------------------------|
-| ⚛️ React   | Front-end framework                |
-| ⚡ Vite    | Blazing fast build tool            |
-| 🌬 Tailwind CSS | Utility-first CSS framework |
-| 🎞 Framer Motion | Animations                  |
-| 📧 EmailJS | Contact form integration           |
-| 🔄 React Scroll | Smooth scrolling navigation   |
-| 🔗 Deployed on | (Vercel / Netlify / GitHub Pages) |
-
----
-
-## 📁 Project Structure
-
-```
-src/
-├── components/
-│   ├── aboutMeSection/
-│   ├── achievementsSection/
-│   ├── contactMeSection/
-│   ├── heroSection/
-│   ├── navbar/
-│   ├── projectsSection/
-│   ├── skillsSection/
-│   └── footer/
-├── framerMotion/ # Animation variants
-├── state/ # Redux store
-├── App.jsx # Main app component
-└── main.jsx # Entry point
-```
-
----
-
-## 📝 How to Run Locally
-
+1. Clone the repository:
 ```bash
-# Clone the repository
-git clone https://github.com/35sonu/sonu-portfolio.git
+git clone https://github.com/Rishabh-2304/rishabh-portfolio.git
+cd rishabh-portfolio
+```
 
-# Go into the directory
-cd sonu-portfolio
-
-# Install dependencies
+2. Install dependencies:
+```bash
 npm install
+```
 
-# Start the development server
+3. Run development server:
+```bash
 npm run dev
 ```
 
-## 🏗️ Build for Production
-
+4. Build for production:
 ```bash
-# Build the project
 npm run build
-
-# Preview the build
-npm run preview
 ```
 
----
+5. Deploy to GitHub Pages:
+```bash
+npm run deploy
+```
 
-## 🎯 Key Projects
+## 📫 Contact
 
-- **WasteWise** — AI-powered waste management platform with 94% CNN accuracy
-- **Affiliate Tracking System** — Real-time conversion tracking with fraud detection
-- **Smart Farming Platform** — Android app connecting farmers with markets
+- **Email**: shuklarishab936@gmail.com
+- **Phone**: +91-6307437228
+- **Location**: Greater Noida, India
+- **GitHub**: [Rishabh-2304](https://github.com/Rishabh-2304)
 
----
+## 📄 License
 
-## 🏆 Achievements
+This project is open source and available under the MIT License.
 
-- 🥉 Smart India Hackathon Participant (Ministry of Education)
-- 🥈 Runner-up at HackOClock
-- 💻 250+ Problems solved on LeetCode
-- 📊 200+ Problems solved on GeeksforGeeks
-- 🎓 AWS & Android Development Certifications (AICTE)
+## 🙏 Acknowledgments
 
----
-
-## 🙌 Acknowledgements
-
-- Tailwind CSS for utility-first styling
-- Framer Motion for smooth animations
-- Vite for fast development experience
-- React Icons for comprehensive icon library
-- EmailJS for contact form functionality
-
----
-
-## ✉️ Contact
-
-If you'd like to collaborate, provide feedback, or just connect:
-
-📧 **Email**: work.sonukumar03@gmail.com  
-📱 **Phone**: +91 6299461913  
-📍 **Location**: Greater Noida, UP, India  
-💼 **LinkedIn**: [linkedin.com/in/sonu-kumar](https://linkedin.com/in/sonu-kumar)  
-💻 **GitHub**: [github.com/35sonu](https://github.com/35sonu)  
-🔗 **LeetCode**: [leetcode.com/u/35sonu](https://leetcode.com/u/35sonu/)  
-🎓 **Portfolio**: [Portfolio Website](https://your-portfolio-link.com)
-
+- Design inspiration from modern portfolio trends
+- Icons from React Icons
+- Animations powered by Framer Motion

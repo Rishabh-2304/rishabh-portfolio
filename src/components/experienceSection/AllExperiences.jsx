@@ -5,6 +5,24 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
+    job: "Technical Team Member",
+    company: "CodeSpace Club",
+    date: "Jun 2024 - Present",
+    responsibilities: [],
+  },
+  {
+    job: "Technical Team Member",
+    company: "Rotaract Club Of GL Bajaj",
+    date: "Jun 2023 - Jun 2024",
+    responsibilities: [],
+  },
+  {
+    job: "Campus Ambassador",
+    company: "Coding Ninjas",
+    date: "Jun 2024 - Present",
+    responsibilities: [],
+  },
+  {
     job: "Front-End Developer",
     company: "Alex Apps",
     date: "2022 - Present",
@@ -44,7 +62,7 @@ const AllExperiences = () => {
         return (
           <>
             <SingleExperience key={index} experience={experience} />
-            {index < 2 ? (
+            {index < experiences.length - 1 ? (
               <motion.div
                 variants={fadeIn("right", 0)}
                 initial="hidden"

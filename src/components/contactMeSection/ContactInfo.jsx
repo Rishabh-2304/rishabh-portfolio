@@ -8,21 +8,21 @@ import SingleContactSocial from "./SingleContactSocial";
 const ContactInfo = () => {
   const contactItems = [
     {
-      text: "work.sonukumar03@gmail.com",
+      text: "shuklarishab936@gmail.com",
       Icon: HiOutlineMail,
       gradient: "from-cyan-400 to-blue-500",
       hoverEffect: "hover:shadow-cyan-500/20 hover:scale-[1.02]",
-      link: "mailto:work.sonukumar03@gmail.com",
+      link: "mailto:shuklarishab936@gmail.com",
     },
     {
-      text: "+91 6299461913",
+      text: "+91-6307437228",
       Icon: FiPhone,
       gradient: "from-blue-400 to-indigo-500",
       hoverEffect: "hover:shadow-blue-500/20 hover:scale-[1.02]",
-      link: "tel:+916299461913",
+      link: "tel:+916307437228",
     },
     {
-      text: "Greater Noida, UP, India",
+      text: "Greater Noida, India",
       Icon: IoLocationOutline,
       gradient: "from-emerald-400 to-teal-500",
       hoverEffect: "hover:shadow-emerald-500/20 hover:scale-[1.02]",

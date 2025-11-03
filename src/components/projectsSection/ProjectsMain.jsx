@@ -6,6 +6,44 @@ const ProjectsMain = () => {
   const projects = [
     {
       id: 1,
+      name: "Quiz Vector",
+      year: "2025",
+      description: "A website that generates quizzes on any user-specified topic using Google's Gemini API.",
+      technologies: ["VUE.JS", "JAVASCRIPT", "GEMINI API"],
+      achievements: [
+        "Integrated Google’s Gemini API to dynamically generate quizzes.",
+        "Ensured data consistency by implementing a strict JSON schema.",
+        "Developed a modular front-end using Vue.js components."
+      ],
+      links: {
+        github: "https://github.com/Rishabh-2304/Quiz-Vector",
+        demo: "https://quiz-vector.vercel.app/",
+      },
+      gradientColors: ["#10b981", "#059669", "#047857"],
+      accentColor: "from-green-500 to-emerald-600"
+    },
+
+    {
+      id: 2,
+      name: "Navigo",
+      year: "2023",
+      description: "A website that provides roadmaps for various emerging technologies and a community section for aspirants to learn and share.",
+      technologies: ["HTML", "CSS", "JAVASCRIPT", "NODE.JS", "MYSQL"],
+      achievements: [
+        "Implemented a section to maintain the progress of the aspirant.",
+        "Developed an intuitive and responsive user interface.",
+        "Community Section for aspirants to learn and share."
+      ],
+      links: {
+        github: "https://github.com/Rishabh-2304/Navigo-Site",
+        demo: "#"
+      },
+      gradientColors: ["#06b6d4", "#3b82f6", "#6366f1"],
+      accentColor: "from-cyan-500 to-blue-600"
+    },
+
+    {
+      id: 3,
       name: "WasteWise – Smart Waste Management Platform",
       year: "2024",
       description: "AI-powered waste classifier with smart management dashboard",
@@ -21,44 +59,6 @@ const ProjectsMain = () => {
       },
       gradientColors: ["#10b981", "#059669", "#047857"], // Green to Emerald to Teal
       accentColor: "from-green-500 to-emerald-600"
-    },
-
-    {
-      id: 2,
-      name: "Affiliate Postback Tracking System",
-      year: "2024",
-      description: "Real-time affiliate tracking system for clicks and conversions",
-      technologies: ["Node.js", "Express", "PostgreSQL", "Next.js"],
-      achievements: [
-        "Real-time affiliate conversion tracking",
-        "Advanced fraud detection algorithms",
-        "Analytics dashboard with performance trends"
-      ],
-      links: {
-        github: "github.com/35sonu/affiliate-postback-system",
-        demo: "#"
-      },
-      gradientColors: ["#06b6d4", "#3b82f6", "#6366f1"], // Cyan to Blue to Indigo
-      accentColor: "from-cyan-500 to-blue-600"
-    },
-
-    {
-      id: 3,
-      name: "Smart Farming Platform",
-      year: "2024",
-      description: "Android app connecting farmers with markets and AI support",
-      technologies: ["Android", "Firebase", "AI Chatbot"],
-      achievements: [
-        "Served 50+ test users with crop prices and logistics",
-        "Firebase Auth & Realtime DB integration",
-        "Improved farmer-market reach by 40% in pilot testing"
-      ],
-      links: {
-        github: "https://github.com/35sonu/Smart-Farming-Platform",
-        demo: "#"
-      },
-      gradientColors: ["#f59e0b", "#f97316", "#ea580c"], // Amber to Orange to Red
-      accentColor: "from-amber-500 to-orange-600"
     }
   ];
 

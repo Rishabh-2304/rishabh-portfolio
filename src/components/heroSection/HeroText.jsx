@@ -17,7 +17,7 @@ const HeroText = () => {
         className="relative"
       >
         <h2 className="text-lg sm:text-xl lg:text-2xl font-medium uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-teal-500 dark:from-cyan-300 dark:to-teal-400">
-          AI/DS Enthusiast • Full‑Stack Developer
+          B.Tech Student in Information Technology
         </h2>
         <motion.div 
           className="absolute bottom-0 left-0 h-[2px] bg-gradient-to-r from-cyan-400 to-teal-400 rounded-full"
@@ -39,7 +39,7 @@ const HeroText = () => {
         >
           {/* First Name */}
           <div className="flex">
-            {"Sonu".split("").map((char, index) => (
+            {"Rishabh".split("").map((char, index) => (
               <motion.div
                 key={`first-${index}`}
                 className="relative group"
@@ -93,7 +93,7 @@ const HeroText = () => {
 
           {/* Last Name */}
           <div className="flex mt-2 md:mt-3">
-            {"Kumar".split("").map((char, index) => (
+            {"Shukla".split("").map((char, index) => (
               <motion.div
                 key={`last-${index}`}
                 className="relative group"
@@ -156,7 +156,7 @@ const HeroText = () => {
         className="relative mt-8 max-w-2xl"
       >
         <p className="text-lg sm:text-xl md:text-2xl font-light leading-relaxed text-transparent bg-clip-text bg-gradient-to-r from-gray-300 to-gray-400 dark:from-gray-400 dark:to-gray-500">
-          Building <span className="font-medium">user-friendly web apps</span> that blend{" "}
+          A B.Tech student at G.L. Bajaj Institute of Technology and Management, passionate about technology and software development. I have a strong foundation in programming and a drive to create innovative solutions.
           <span className="font-medium">creativity with performance.</span>.
         </p>
         <motion.div 
@@ -211,8 +211,8 @@ const HeroText = () => {
         <motion.button
           onClick={() => {
             const link = document.createElement('a');
-            link.href = './Sonu-Kumar-Resume.pdf';
-            link.download = 'Sonu-Kumar-Resume.pdf';
+            link.href = './Resume_Rishabh_latest.pdf';
+            link.download = 'Resume_Rishabh_latest.pdf';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
@@ -232,7 +232,7 @@ const HeroText = () => {
         {/* View Resume Button */}
         <motion.button
           onClick={() => {
-            window.open('./Sonu-Kumar-Resume.pdf', '_blank');
+            window.open('./Resume_Rishabh_latest.pdf', '_blank');
           }}
           whileHover={{ scale: 1.05, y: -2 }}
           whileTap={{ scale: 0.95 }}

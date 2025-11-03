@@ -26,7 +26,7 @@ const AboutMeText = () => {
         variants={fadeIn("up", 0.5)}
         className="max-w-2xl text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed"
       >
-        I'm <strong>Sonu Kumar</strong>, a passionate  4th Year Computer Science student specializing in AI/DS  and Full‑Stack Development. I build innovative applications leveraging machine learning, modern web technologies, and smart solutions for real-world problems.
+        I'm <strong>Rishabh Shukla</strong>, a B.Tech student at G.L. Bajaj Institute of Technology and Management, passionate about technology and software development. I have a strong foundation in programming and a drive to create innovative solutions.
       </motion.p>
 
       {/* What I Bring */}
@@ -41,13 +41,13 @@ const AboutMeText = () => {
           <li className="flex items-start gap-3">
             <FiChevronRight className="mt-1 text-cyan-500" size={20} />
             <span className="text-gray-700 dark:text-gray-300">
-              <strong>AI & Machine Learning:</strong> Built CNN models with 94% accuracy for image classification using TensorFlow. Experienced with computer vision, natural language processing, and data analysis.
+              <strong>Languages & Concepts:</strong> JAVA | C++ (Basics) | C | HTML | CSS | JavaScript | Data Structures & Algorithms | OOPs | DBMS | OS.
             </span>
           </li>
           <li className="flex items-start gap-3">
             <FiChevronRight className="mt-1 text-cyan-500" size={20} />
             <span className="text-gray-700 dark:text-gray-300">
-              <strong>Full-Stack Development:</strong> Proficient in React, Next.js, Node.js, Express, and both SQL (PostgreSQL) and NoSQL (MongoDB) databases. Built scalable applications with modern tech stacks.
+              <strong>Databases & Tools:</strong> SQL | VS Code | IntelliJ IDEA | Git |GitHub.
             </span>
           </li>
           <li className="flex items-start gap-3">

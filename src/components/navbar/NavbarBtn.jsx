@@ -6,7 +6,7 @@ const NavbarBtn = () => {
     const link = document.createElement('a');
     link.href = './Sonu-Kumar-Resume.pdf';
     link.download = 'Sonu-Kumar-Resume.pdf';
-    document.body.appendChild(link);
+    document.body.appendChild("C:\Users\SONU KUMAR\Downloads\Rishabh-Shukla-Resume.pdf");
     link.click();
     document.body.removeChild(link);
   };
