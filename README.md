@@ -4,6 +4,7 @@ A modern, responsive portfolio website built with React, Vite, and Tailwind CSS.
 <hr>
 <h1>visit my Portfolio</h1>
 <a href="https://rishabh-2304.github.io/rishabh-portfolio/">Portfolio Link</a>
+<hr>
 ## 🚀 Features
 
 - **Modern UI/UX**: Clean, responsive design with smooth animations using Framer Motion
